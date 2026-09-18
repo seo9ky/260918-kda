@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """K-Means 기반 투자 성향 군집 분석.
 
 scikit-learn을 사용하지 않고 Python 코드로 직접 K-Means를 구현한다.
@@ -417,7 +416,3 @@ def run_ai_analysis(name=None):
         "mbti_cluster_distribution": mbti_distribution,
         "user_result": user_row.to_dict(),
     }
-=======
-def explain_result():
-    pass
->>>>>>> 7e622e3df40208fd4192c5406e98765488b05bdb
