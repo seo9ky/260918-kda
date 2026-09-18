@@ -20,7 +20,7 @@ def run_investment_test():
         # 존재하지 않는 사용자
         if user_id is None:
 
-            print("\n❌ 존재하지 않는 사용자입니다.")
+            print("\n 존재하지 않는 사용자입니다.")
             print("이름을 다시 입력해주세요.")
 
             continue
@@ -28,7 +28,7 @@ def run_investment_test():
         # 이미 투자성향 검사를 한 사용자
         if check_investment_test(user_id):
 
-            print("\n⚠️ 이미 투자성향 검사를 완료한 사용자입니다.")
+            print("\n 이미 투자성향 검사를 완료한 사용자입니다.")
             print("다시 응시할 수 없습니다.")
             print("다른 이름을 입력해주세요.")
 
@@ -455,7 +455,7 @@ def run_investment_test():
         target_return=target_return
     )
 
-    print("\n✅ 투자성향 검사 결과가 저장되었습니다.")
+    print("\n 투자성향 검사 결과가 저장되었습니다.")
     print("메인 메뉴로 돌아갑니다.")
 
     return True
