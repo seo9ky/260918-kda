@@ -1,3 +1,7 @@
 supabase
 python-dotenv
+<<<<<<< HEAD
 pandas
+=======
+pandas
+>>>>>>> 7e622e3df40208fd4192c5406e98765488b05bdb
